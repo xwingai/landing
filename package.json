@@ -1,0 +1,29 @@
+{
+  "name": "X-Wing AI landing page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "copyfiles --up 1 'src/**/*' dist && postcss css/tailwind.css -o dist/css/tailwind.css --env production",
+    "watch": "postcss css/tailwind.css -o src/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemasilotti/x-wing-ai-tailwind.git"
+  },
+  "keywords": [],
+  "author": "Joe Masilotti",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/joemasilotti/x-wing-ai-tailwind/issues"
+  },
+  "homepage": "https://github.com/joemasilotti/x-wing-ai-tailwind#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^6.1.2",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.0.4"
+  }
+}
