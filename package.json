@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "copyfiles --up 1 'src/**/*' dist && postcss css/tailwind.css -o dist/css/tailwind.css --env production",
-    "watch": "postcss css/tailwind.css -o src/css/tailwind.css --watch"
+    "build": "copyfiles --up 1 'src/**/*' dist && postcss css/base.css -o dist/css/styles.css --env production",
+    "watch": "postcss css/base.css -o src/css/styles.css --watch"
   },
   "repository": {
     "type": "git",
