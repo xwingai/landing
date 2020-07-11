@@ -18438,6 +18438,14 @@ video {
   transition-delay: 1000ms;
 }
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #161617 0%, #2C2C2E 100%);
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
