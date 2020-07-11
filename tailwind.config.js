@@ -3,7 +3,9 @@ module.exports = {
     './src/index.html',
   ],
   theme: {
-    extend: {}
+    fill: theme => ({
+      'gray-100': theme('colors.gray.100'),
+    })
   },
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'active'],
