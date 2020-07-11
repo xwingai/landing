@@ -14568,6 +14568,10 @@ video {
   box-shadow: none;
 }
 
+.fill-white {
+  fill: #fff;
+}
+
 .fill-gray-100 {
   fill: #f7fafc;
 }
@@ -33312,6 +33316,10 @@ body {
     box-shadow: none;
   }
 
+  .sm\:fill-white {
+    fill: #fff;
+  }
+
   .sm\:fill-gray-100 {
     fill: #f7fafc;
   }
@@ -52047,6 +52055,10 @@ body {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:fill-white {
+    fill: #fff;
   }
 
   .md\:fill-gray-100 {
@@ -70786,6 +70798,10 @@ body {
     box-shadow: none;
   }
 
+  .lg\:fill-white {
+    fill: #fff;
+  }
+
   .lg\:fill-gray-100 {
     fill: #f7fafc;
   }
@@ -89521,6 +89537,10 @@ body {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:fill-white {
+    fill: #fff;
   }
 
   .xl\:fill-gray-100 {

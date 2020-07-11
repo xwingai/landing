@@ -4,6 +4,7 @@ module.exports = {
   ],
   theme: {
     fill: theme => ({
+      'white': theme('colors.white'),
       'gray-100': theme('colors.gray.100'),
       'initiative-orange': theme('colors.initiative-orange'),
     }),
