@@ -15,3 +15,7 @@ Open `dist/index.html` in your browser. You can now edit `src/index.html` and `c
 ## Production
 
 Run `yarn run build` to process, purge, and minimize the CSS for production. You can then copy the contents of `dist/` wherever you want to deploy the site.
+
+## Template
+
+This project was indirectly forked from tailwindtoolbox's [Landing Page](https://github.com/tailwindtoolbox/Landing-Page) template which is released under the MIT license.
