@@ -1,7 +1,7 @@
 {
   "name": "x-Wing-ai-tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "A single page landing page built with tailwindcss for an iOS app, X-Wing AI. The site is hosted at https://xwing.app.",
   "main": "index.js",
   "scripts": {
     "build": "copyfiles --up 1 'src/**/*' dist && postcss css/base.css -o dist/css/styles.css --env production",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "Joe Masilotti",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/joemasilotti/x-wing-ai-tailwind/issues"
   },
