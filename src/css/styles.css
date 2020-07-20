@@ -14568,6 +14568,10 @@ video {
   box-shadow: none;
 }
 
+.fill-current {
+  fill: currentColor;
+}
+
 .fill-white {
   fill: #fff;
 }
@@ -33316,6 +33320,10 @@ body {
     box-shadow: none;
   }
 
+  .sm\:fill-current {
+    fill: currentColor;
+  }
+
   .sm\:fill-white {
     fill: #fff;
   }
@@ -52055,6 +52063,10 @@ body {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:fill-current {
+    fill: currentColor;
   }
 
   .md\:fill-white {
@@ -70798,6 +70810,10 @@ body {
     box-shadow: none;
   }
 
+  .lg\:fill-current {
+    fill: currentColor;
+  }
+
   .lg\:fill-white {
     fill: #fff;
   }
@@ -89537,6 +89553,10 @@ body {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:fill-current {
+    fill: currentColor;
   }
 
   .xl\:fill-white {

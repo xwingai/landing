@@ -45,10 +45,20 @@
   <body class="leading-normal tracking-normal text-white gradient">
     <div class="bg-fixed" style="background-image: url(img/stars.png);">
       <header class="container mx-auto p-3 md:pt-6 md:px-0">
-        <img class="h-8 md:h-10" src="img/logo.svg" alt="X-Wing AI">
+        <nav class="flex items-center justify-between flex-wrap p-6">
+          <a href="https://xwing.app">
+            <img class="h-8 md:h-10" src="img/logo.svg" alt="X-Wing AI">
+          </a>
+
+          <div class="flex flex-row w-full md:w-auto justify-between items-baseline text-sm mt-4 lg:mt-0 lg:mr-16">
+            <a href="#reviews" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-initiative-orange mr-4">Reviews</a>
+            <a href="#android" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-initiative-orange mr-4">Android</a>
+            <a href="#support" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-initiative-orange mr-4">Support</a>
+            <a href="https://apps.apple.com/app/apple-store/id1170239055?pt=672052&ct=xwing.app&mt=8" class="px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white">Download</a>
+          </div>
       </header>
 
-      <div class="container pt-8 lg:pt-0 px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div class="container pt-4 lg:pt-0 px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <h2 class="my-4 text-5xl font-bold leading-tight w-full">Now this is X&#x2011;Wing</h2>
           <p class="leading-normal text-3xl mb-8">Single-player and co&#x2011;op X&#x2011;Wing games powered by your phone.</p>
@@ -162,7 +172,7 @@
       </div>
     </section>
 
-    <section class="bg-gray-100 border-t border-b pt-8 -mb-1">
+    <section id="reviews" class="bg-gray-100 border-t border-b pt-8 -mb-1">
       <div class="container mx-auto max-w-3xl px-4 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-4 text-5xl font-bold leading-tight text-center">5-star reviews</h2>
         <div class="flex md:hidden justify-center fill-initiative-orange">
@@ -226,7 +236,7 @@
       </div>
     </section>
 
-    <section class="bg-white py-8 -mb-1">
+    <section id="android" class="bg-white py-8 -mb-1">
       <div class="container max-w-5xl space-y-24 mx-auto m-8">
         <div class="flex flex-wrap items-center">
           <div class="w-full md:w-1/2 px-6 mb-8 md:mb-0">
@@ -266,7 +276,7 @@
       </g>
     </svg>
 
-    <section class="flex flex-col items-center text-center bg-fixed py-6 mb-16" style="background-image: url(img/stars.png);">
+    <section id="support" class="flex flex-col items-center text-center bg-fixed py-6 mb-16" style="background-image: url(img/stars.png);">
       <h1 class="my-2 text-4xl font-bold leading-tight text-white">X-Wing AI</h1>
       <p class="text-2xl mt-8 mb-4">Questions or feedback?</p>
       <a class="text-xl bg-initiative-orange hover:bg-white text-white hover:text-black font-bold py-2 px-4 rounded cursor-pointer mx-2" href="mailto:joe@masilotti.com?subject=X-Wing AI">Email Joe</a>
