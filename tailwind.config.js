@@ -3,11 +3,6 @@ module.exports = {
     './src/index.html',
   ],
   theme: {
-    fill: theme => ({
-      'white': theme('colors.white'),
-      'gray-100': theme('colors.gray.100'),
-      'initiative-orange': theme('colors.initiative-orange'),
-    }),
     extend: {
       colors: {
         "initiative-orange": "#e77e29",
@@ -18,7 +13,12 @@ module.exports = {
         "energy-pink": "#e71583",
         "stress-red": "#ec1f21",
         "destress-blue": "#1e90ff",
-      }
+      },
+      fill: theme => ({
+        'white': theme('colors.white'),
+        'gray-100': theme('colors.gray.100'),
+        'initiative-orange': theme('colors.initiative-orange'),
+      }),
     }
   },
   variants: {
