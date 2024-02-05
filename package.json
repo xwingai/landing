@@ -1,5 +1,5 @@
 {
-  "name": "x-Wing-ai-tailwind",
+  "name": "xwing-ai-landing",
   "version": "1.0.0",
   "description": "A single page landing page built with tailwindcss for an iOS app, X-Wing AI. The site is hosted at https://xwing.app.",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joemasilotti/x-wing-ai-tailwind.git"
+    "url": "git+https://github.com/xwingai/landing.git"
   },
   "keywords": [],
-  "author": "Joe Masilotti",
+  "author": "XWing AI Team <xwingai.team@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joemasilotti/x-wing-ai-tailwind/issues"
+    "url": "https://github.com/xwingai/landing/issues"
   },
-  "homepage": "https://github.com/joemasilotti/x-wing-ai-tailwind#readme",
+  "homepage": "https://github.com/xwingai/landing#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "autoprefixer": "^9.6.1",
