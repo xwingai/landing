@@ -75,6 +75,7 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: underline;
 }
 
 /**
@@ -525,7 +526,7 @@ h6 {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: underline;
 }
 
 /**
